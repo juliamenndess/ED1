@@ -1,4 +1,4 @@
-package Ativade1.CadastroFuncionarioAleatorio;
+package Ativade1.CadastroFuncionarioOrdenado;
 
 import java.util.Scanner;
 
@@ -15,9 +15,10 @@ public class main {
         System.out.println("6 – Encerrar o programa");
         System.out.print("Informe a opção: ");
     }
-    
+
     public static void main(String[]args){
         Scanner in = new Scanner(System.in);
+        
         Cadastro cadFuncionarios = new Cadastro(3);
         int op;
         String matricula;
@@ -59,5 +60,4 @@ public class main {
 
         }while(op != 6);
     }
-    
 }
